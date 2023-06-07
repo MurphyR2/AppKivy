@@ -44,15 +44,15 @@ class PasswordManagerApp(Screen):
         self.manager.current = "menu"
         
     def add_password(self, button):
-        # Aquí puedes implementar la lógica para agregar una contraseña
+        # logica aqui
         print("Contraseña agregada")
 
     def show_passwords(self, button):
-        # Aquí puedes implementar la lógica para mostrar las contraseñas guardadas
+        # logica
         print("Contraseñas guardadas:")
 
     def clear_passwords(self, button):
-        # Aquí puedes implementar la lógica para borrar todas las contraseñas
+        # logica
         print("Contraseñas borradas")
 
     
