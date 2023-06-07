@@ -14,10 +14,15 @@ Window.size = (400, 500)
 class MenuScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        
+        #El titulo
+        
         self.layout = BoxLayout(orientation='vertical', spacing=10, padding=10)
         self.label = Label(text="Menú", font_size=30)
         self.layout.add_widget(self.label)
 
+        
+        #botones
         self.encrypt_button = Button(text="Gestor de Contraseñas", font_size=24)
         self.encrypt_button.bind(on_release=self.go_to_hello_world_1)
         self.layout.add_widget(self.encrypt_button)
@@ -29,6 +34,8 @@ class MenuScreen(Screen):
         self.quit_button = Button(text="Salir", font_size=24)
         self.quit_button.bind(on_release=self.quit_app)
         self.layout.add_widget(self.quit_button)
+        
+        #agregamos al layout
 
         self.add_widget(self.layout)
 
