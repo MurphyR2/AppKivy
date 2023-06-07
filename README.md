@@ -5,7 +5,7 @@ Código: BMA20 - M
 
 Estudiante: Rugel Acosta, Bill Jesús
 
-Instrucciones:
+## Instrucciones:
 
 1. Ejecutar el programa **main.py**
 2. Para cerrar la venta utilizar el botón **salir**
